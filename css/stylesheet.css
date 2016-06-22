@@ -53,5 +53,140 @@ table {
 */
 
 body {
-    background: 
+    background: #41444b;
+    color: #fff;
+    font: 300 16px/22px "Roboto";
+}
+
+
+/*
+  ========================================
+  header
+  ========================================
+*/
+
+header {
+    padding-top: 50px;
+}
+
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+nav {
+    text-align: right;
+    padding-right: 50px; 
+    word-spacing: 50px;
+}
+nav li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+nav a {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #a91d1d;
+    cursor: pointer;
+}
+
+/*
+  ========================================
+  Images
+  ========================================
+*/
+
+header img {
+    width: 100%;
+}
+
+aside img {
+    width: 50%;
+    padding-top: 20px;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+header h1 {
+    float: left;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    padding: 15px
+}
+
+.slogan h2 {
+    font-size: 45px;
+    font-style: italic;
+}
+
+.jumbo p{
+    text-align: center;
+    padding: 25px;
+}
+
+.about h1 {
+    font-size: 45px;
+    padding: 15px;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+/*
+  ========================================
+  Slogan Section
+  ========================================
+*/
+
+.slogan {
+    background: #fff;
+    color: #000;
+    padding: 50px;
+    text-align: center;
+}
+
+/*
+  ========================================
+  About Section
+  ========================================
+*/
+
+.about {
+    background: #fff;
+    color: #000;
+    padding: 50px;
+}
+
+.jumbo{
+    float: left;
+    width: 50%;
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+footer {
+    padding: 60px;
 }
