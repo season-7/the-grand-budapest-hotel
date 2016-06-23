@@ -117,6 +117,15 @@ aside img {
     padding-top: 20px;
 }
 
+.family-package img,
+.spa-experience img,
+.special-occasions img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;   
+}
+
 /*
   ========================================
   Typography
@@ -174,6 +183,32 @@ footer p {
     line-height: 45px;
     padding-bottom: 15px;
     text-align: center;
+}
+
+.offers h1 {
+    font-size: 45px;
+    padding: 15px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.offers h3 {
+    font-size: 25px;
+    line-height: 45px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.offers h4 {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 15px
+}
+
+.offers h2 {
+    font-size: 20px;
+    padding-bottom: 5px;
 }
 
 /*
@@ -300,6 +335,31 @@ register-group textarea {
     float: left;
     width: 50%;
 }
+
+/*
+  ========================================
+  Offers Section
+  ========================================
+*/
+
+.offers{
+    background: #fff;
+    color: #000;
+    padding: 50px;
+}
+
+.family-package,
+.spa-experience,
+.special-occasions{
+    background: #ddd;
+    padding: 50px;
+}
+
+.included {
+    list-style: square;
+    margin: 0 0 22px 30px;
+}
+
 
 /*
   ========================================
