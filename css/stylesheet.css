@@ -128,7 +128,7 @@ header h1 {
     font-size: 50px;
     font-weight: 700;
     line-height: 55px;
-    padding: 15px
+    padding: 15px;
 }
 
 .slogan h2 {
@@ -172,6 +172,7 @@ footer p {
 .reservation h3 {
     font-size: 25px;
     line-height: 45px;
+    padding-bottom: 15px;
     text-align: center;
 }
 
@@ -218,19 +219,13 @@ form {
     margin-bottom: 22px;
 }
 
-input,
-select,
-textarea {
-    font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, san-serif;
-}
 
 .booking-group {
     background: #ddd;
-    padding: 50px;
+    padding: 30px;
 }
 
 .booking-group label {
-    color: #648880;
     cursor: pointer;
     font-weight: 400;
 }
@@ -247,7 +242,7 @@ textarea {
     border: 1px solid #c6c9cc;
     border-radius: 5px;
     color: #888;
-    margin:;
+    margin: 30px;
     padding: 5px 8px;
 }
 
@@ -265,6 +260,29 @@ register-group textarea {
     height: 78px;
 }
 
+/*
+  ========================================
+    Button
+  ========================================
+*/
+
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.btn-default {
+    border: 0;
+    background: #648880;
+    padding: 11px 30px;
+    font-size: 14px
+}
 
 /*
   ========================================
@@ -275,7 +293,7 @@ register-group textarea {
 .about {
     background: #fff;
     color: #000;
-    padding: 50px;
+    padding-bottom: 50px;
 }
 
 .jumbo{
