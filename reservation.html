@@ -36,14 +36,90 @@
             <p>The Grand Budapest Hotel offers guests true urban sanctuaries, with 262 rooms and 44 suites that are among the top hotels in East Africa. The five-star hotel&#39;s stylish interiors all dreamed up by designer Tony Chi and Associates are crafted from the finest materials and appointed to the highest standard.</p>
         </section>
     
-        <section>
+        <form class="reservation">
+        <fieldset>
+                <label>
+                    Check-in
+                    <input type="date" name="checkin">
+                </label>
+                
+                <label>
+                    Check-out
+                 <input type="date" name="checkout">
+                </label>
+                
+                 Number of Rooms
+            <label>
+                <select name="quantity" required>
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="9">10</option>
+                </select>
+            </label>
             
+            <section>
+                  <label>
+                 Adults
+                <select name="quantity" required>
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="9">10</option>
+                </select>
+            </label>
+                
+                  <label>
+                 Children 
+                <select name="quantity" required>
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="9">10</option>
+                </select>
+            </label>
+                
+                  <label>
+                 Babies
+                <select name="quantity" required>
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="9">10</option>
+                </select>
+            </label>
+            </section>
             
             
             <input type="radio" name="living" value="Resident" checked> Resident
             <input type="radio" name="living" value="Non-Resident"> Non-Resident
         
-        </section>
+        </fieldset>
+        </form>
         
    
     
