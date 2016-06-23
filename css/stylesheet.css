@@ -65,10 +65,9 @@ body {
   ========================================
 */
 
-header {
-    padding-top: 50px;
+.title {
+    position: absolute;
 }
-
 
 /*
   ========================================
@@ -77,8 +76,11 @@ header {
 */
 
 nav {
+    float: right;
+    font-size: 20px;
     text-align: right;
-    padding-right: 50px; 
+    padding-left: 320px;
+    padding-top: 30px;
     word-spacing: 50px;
 }
 nav li {
@@ -93,7 +95,7 @@ nav li {
 */
 
 nav a {
-    color: #f5f5f5;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -132,17 +134,22 @@ aside img {
   ========================================
 */
 
+
 header h1 {
+    border: 5px solid #000;
+    color: #ddd;
     float: left;
     font-size: 50px;
     font-weight: 700;
     line-height: 55px;
-    padding: 15px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .slogan h2 {
     font-size: 45px;
-    font-style: italic;
+    font-weight: 700;
+    line-height: 60px
 }
 
 .jumbo p{
