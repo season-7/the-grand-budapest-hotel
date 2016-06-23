@@ -157,7 +157,19 @@ footer p {
     text-align: center
 }
 
-.accomodation p {
+.accomodation h3 {
+    font-size: 25px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.reservation h1 {
+    font-size: 45px;
+    padding: 15px;
+    text-align: center;
+}
+
+.reservation h3 {
     font-size: 25px;
     line-height: 45px;
     text-align: center;
@@ -186,6 +198,13 @@ footer p {
     background: #fff;
     color: #000;
     padding: 50px;
+}
+
+.reservation {
+    background: #fff;
+    color: #000;
+    padding: 50px;
+    text-align: center;
 }
 
 /*
