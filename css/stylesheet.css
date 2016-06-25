@@ -100,6 +100,7 @@ nav a {
 }
 
 nav a:hover {
+    border: 2px solid #a91d1d;
     color: #a91d1d;
     cursor: pointer;
 }
