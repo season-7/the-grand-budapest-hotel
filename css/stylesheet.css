@@ -53,11 +53,15 @@ table {
 */
 
 body {
-    background: #41444b;
+    background: #fff;
     color: #fff;
     font: 300 16px/22px "Roboto";
 }
 
+
+hr {
+    width: 80%;
+}
 
 /*
   ========================================
@@ -95,7 +99,7 @@ nav li {
 */
 
 nav a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 
@@ -138,7 +142,7 @@ aside img {
 
 header h1 {
     border: 5px solid #000;
-    color: #ddd;
+    color: #000;
     float: left;
     font-size: 50px;
     font-weight: 700;
@@ -385,5 +389,6 @@ register-group textarea {
 */
 
 footer {
+    background: #415f77;
     padding: 60px;
 }
