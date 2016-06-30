@@ -82,8 +82,8 @@ hr {
 nav {
     float: right;
     font-size: 20px;
-    text-align: right;
-    padding-left: 320px;
+    text-align: center;
+    padding-left: 400px;
     padding-top: 30px;
     word-spacing: 50px;
 }
@@ -141,14 +141,14 @@ aside img {
 
 
 header h1 {
-    border: 5px solid #000;
+    text-align: center;
     color: #000;
-    float: left;
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 70px;
+    font-weight: 100;
     line-height: 55px;
     margin: 10px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-left: 400px;
 }
 
 .slogan h2 {
